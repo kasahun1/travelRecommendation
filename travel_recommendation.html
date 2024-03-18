@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TravelBloom</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <div id="logo">
+                    <li><img src="./images/plane.svg" width="50" height="50"></li>
+                    <li id="logoText">TravelBloom</li>
+                </div>
+                <div id="navButtons">
+                    <li><a href="travel_recommendation.html">Home </a></li>
+                    <li><a href="about_us.html">About Us </a></li>
+                    <li><a href="contact_us.html">Contact Us </a></li>
+                </div>
+                <form id="searchForm">
+                    <li><input type="text" id="searchInput" placeholder="Enter a destination or keyword"></li>
+                    <li><button id="btnSearch" type="button">Search</button></li>
+                    <li><button id="btnReset" type="button">Reset</button></li>
+                </form>
+            </ul>
+        </nav>
+        <div id="homePageContent">
+        </div>
+        <h1 id="homePageTitle" class="homePageContent">EXPLORE<br>DREAM<br>DESTINATION<br></h1>
+        <p id="homePageText" class="homePageContent">It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.<br><br></p>
+        <button id="bookNowBtn" class="homePageContent">BOOK NOW</button>
+        <ul id="searchResults" class="invisible">
+        </ul>
+        <script src="./travel_recommendation.js"></script>
+    </body>
+</html>

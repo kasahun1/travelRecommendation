@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #083075 ;
+    padding: 20px;
+    display: flex;
+    opacity: 0.8;
+    justify-content: right;
+    font-size: 25px;
+    color: #f0f0f0;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  button {
+    padding: 7px 15px;
+    background-color: #326dd3;
+    color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+  }
+  
+  button:hover {
+    background-color: #083075;
+  }
+
+body {
+    background-image: url('./images/gateshead-hero.jpg');
+    background-size: cover;
+}
+
+#homePageTitle {
+    font-size: 100px;
+}
+
+#homePageText {
+    font-size: 40px;
+}
+
+#homePageContent {
+    width: 45%;
+    height: 850px;
+    background-color: #4b4a4a;
+    opacity: 0.5;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 50px;
+    padding: 25px;
+}
+
+.homePageContent {
+    color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: -800px;
+    left: 150px;
+    width: 40%;
+}
+
+#searchInput {
+    color: black;
+    background-color: #f0f0f0;
+    width: 350px;
+    padding: 15px;
+    border-style: none;
+    font-size: 20px;
+    border-radius:25px;
+}
+
+#logo {
+    float: left;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-right: 250px;
+}
+
+#logoText {
+    position: relative;
+    top: -10px;
+}
+
+#navButtons {
+    float: left;
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f0f0f0;
+}
+
+#searchForm {
+    border-radius: 25px;
+    float: right;
+    margin-left: 125px;
+    background-color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contactUsForm {
+    color: black;
+    position: relative;
+    left: 150px;
+    width: 40%;
+    top: -800px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.7;
+}
+
+.contactUsForm {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#aboutUsPageContent {
+    width: 90%;
+    height: 700px;
+    background-color: #4b4a4a;
+    opacity: 0.5;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 50px;
+    padding: 25px;
+}
+
+.aboutUsPageContent {
+    color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: -600px;
+    left: 150px;
+    width: 80%;
+}
+
+#ourTeamList {
+    list-style-type: none;
+    position: relative;
+    top: -400px;
+    left: 100px;
+}
+
+#ourTeamList li {
+    display: block;
+    float: left;
+    position: relative;
+    margin-right: 50px;
+    background-color: #4b4a4a;
+    opacity: 0.5;
+    border-radius: 50px;
+    padding: 25px;
+    width: 400px;
+    height: 400px;
+}
+
+.ourTeamListContent {
+    color: #f0f0f0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    display: inline-block;
+    margin-right: 125px;
+    top: -200px;
+    left: 30px;
+}
+
+#searchResults {
+    top: -1550px;
+    left: 1000px;
+    position: relative;
+    width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+}
+
+.searchResultsContent {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.bookNowBtn {
+    width: 100%;
+    padding: 15px;
+}
+
+.searchResultsImages {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.invisible {
+    opacity: 0;
+}

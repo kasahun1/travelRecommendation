@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TravelBloom</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <div id="logo">
+                    <li><img src="./images/plane.svg" width="50" height="50"></li>
+                    <li id="logoText">TravelBloom</li>
+                </div>
+                <div id="navButtons">
+                    <li><a href="travel_recommendation.html">Home </a></li>
+                    <li><a href="about_us.html">About Us </a></li>
+                    <li><a href="contact_us.html">Contact Us </a></li>
+                </div>
+            </ul>
+        </nav>
+        <div id="homePageContent">
+        </div>
+        <h1 id="homePageTitle" class="homePageContent">CONTACT US</h1>
+        <p id="homePageText" class="homePageContent">Get in touch</p>
+        <form id="contactUsForm">
+            <input type="text" id="nameInput" class="contactUsForm" placeholder="Enter your name" required><br>
+            <input type="email" id="emailInput" class="contactUsForm" placeholder="Enter your email address" required><br>
+            <textarea id="messageInput" class="contactUsForm" rows=7 placeholder="Enter your message" required></textarea><br>
+            <button id="submitButton" class="contactUsForm">Submit your message</button>
+        </form>
+        <script src="./travel_recommendation.js"></script>
+    </body>
+</html>
